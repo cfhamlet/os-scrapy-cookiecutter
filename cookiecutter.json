@@ -1,0 +1,4 @@
+{
+    "project_name":"spider_{{ random_ascii_string(4) | lower }}",
+    "_extensions": ["cookiecutter.extensions.RandomStringExtension"]
+}

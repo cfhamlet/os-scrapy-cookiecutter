@@ -1,0 +1,10 @@
+[run]
+parallel = true
+branch = true
+source = os_scrapy_cookiecutter
+
+[paths]
+source =
+    src/os_scrapy_cookiecutter
+    .tox/*/lib/python*/site-packages/os_scrapy_cookiecutter
+    .tox/*/site-packages/os_scrapy_cookiecutter
