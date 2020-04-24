@@ -2,6 +2,7 @@ include LICENSE
 include README.md
 include MANIFEST.in
 include src/os_scrapy_cookiecutter/VERSION
+include requirements/requirements.txt
 recursive-include src/os_scrapy_cookiecutter/templates *
 graft src/os_scrapy_cookiecutter
 graft tests
