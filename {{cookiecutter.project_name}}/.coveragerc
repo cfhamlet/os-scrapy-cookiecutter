@@ -1,0 +1,10 @@
+[run]
+parallel = true
+branch = true
+source = {{ cookiecutter.project_name }}
+
+[paths]
+source =
+    {{ cookiecutter.project_name }}
+    .tox/*/lib/python*/site-packages/{{ cookiecutter.project_name }}
+    .tox/*/site-packages/{{ cookiecutter.project_name }}

@@ -1,0 +1,9 @@
+include LICENSE
+include README.md
+include MANIFEST.in
+include scrapy.cfg
+graft requirements
+graft {{ cookiecutter.project_name }}
+graft tests
+global-exclude __pycache__
+global-exclude *.py[co]
