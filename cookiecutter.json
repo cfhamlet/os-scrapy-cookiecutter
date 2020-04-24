@@ -1,4 +1,5 @@
 {
-    "project_name":"spider_{{ random_ascii_string(4) | lower }}",
-    "_extensions": ["cookiecutter.extensions.RandomStringExtension"]
+    "project_name": "spider_{{ random_ascii_string(4) | lower }}",
+    "project_dir" : "{{ cookiecutter.project_name }}",
+    "_extensions" : ["cookiecutter.extensions.RandomStringExtension"]
 }
