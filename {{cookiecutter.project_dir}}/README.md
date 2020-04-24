@@ -27,6 +27,7 @@ You can run it as normal scrapy project with scrapy commands. It is also a pytho
   ```
 
 * files
+
   ```
   .
   ├── {{ cookiecutter.project_name }} # scrapy project          
