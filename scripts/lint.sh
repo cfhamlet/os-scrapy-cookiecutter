@@ -10,7 +10,7 @@ set -x
 
 pip install -r requirements/requirements-lint.txt
 
-FILES="src tests setup.py"
+FILES="src tests hooks setup.py"
 
 ${PREFIX}autoflake --in-place --recursive --remove-all-unused-imports --remove-unused-variables ${FILES}
 ${PREFIX}black --exclude=".pyi$" ${FILES}

@@ -27,7 +27,7 @@ setup(
     author="Ozzy",
     author_email="cfhamlet@gmail.com",
     url="https://github.com/cfhamlet/os-scrapy-cookiecutter",
-    install_requires=open('requirements/requirements.txt').read().split('\n'),
+    install_requires=open("requirements/requirements.txt").read().split("\n"),
     python_requires=">=3.6",
     keywords=["cookiecutter", "template", "package",],
     zip_safe=False,
