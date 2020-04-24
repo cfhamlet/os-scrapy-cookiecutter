@@ -17,8 +17,7 @@ You can run it as normal scrapy project with scrapy commands. It is also a pytho
 * test
 
   ```
-  pip install -r requirements/requirements-test.txt
-  tox
+  sh scripts/test.sh
   ```
 
 * install
