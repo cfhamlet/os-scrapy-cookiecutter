@@ -59,11 +59,13 @@ It is also a python package, the scaffolds can be used for formatting, testing, 
   │   └── requirements.txt # requirements of this project
   ├── scrapy.cfg # scrapy project entrypoint file
   ├── scripts
-  │   └── lint.sh # lint tool
+  │   ├── test.sh # run test 
+  │   └── lint.sh # format the source file
   ├── setup.cfg # setup tool config file
   ├── setup.py # setup tool 
   ├── tests
-  │   └── __init__.py
+  │   ├── __init__.py
+  │   └── test_scrapy_check.py # unit test with scrapy check
   └── tox.ini # tox config file
   ```
 
