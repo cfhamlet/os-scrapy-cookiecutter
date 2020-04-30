@@ -1,6 +1,5 @@
 #!/bin/sh -e
 
-
 export PREFIX=""
 if [ -d 'venv' ] ; then
     export PREFIX="venv/bin/"
@@ -10,7 +9,7 @@ set -x
 
 pip install -r requirements/requirements-lint.txt
 
-FILES="{{ cookiecutter.project_name }} tests setup.py"
+FILES="{{cookiecutter.project_name}} tests setup.py"
 
 ${PREFIX}autoflake --in-place --recursive --remove-all-unused-imports --remove-unused-variables ${FILES}
 ${PREFIX}black --exclude=".pyi$" ${FILES}
