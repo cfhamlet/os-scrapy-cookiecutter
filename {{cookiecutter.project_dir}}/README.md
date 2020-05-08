@@ -13,61 +13,61 @@ It is also a python package, the scaffolds can be used for formatting, testing, 
 
 * lint
   
-  ```
-  sh scripts/lint.sh
-  ```
+    ```
+    sh scripts/lint.sh
+    ```
 
 * test
 
-  ```
-  sh scripts/test.sh
-  ```
+    ```
+    sh scripts/test.sh
+    ```
 
 * install
 
-  ```
-  python setup.py install
-  ```
+    ```
+    python setup.py install
+    ```
 
 * demo
 
-  You can run demo spider:
+    You can run demo spider:
 
-  ```
-  scrapy crawl demo
-  ```
+    ```
+    scrapy crawl demo
+    ```
 
 * files
 
-  ```
-  .
-  ├── {{cookiecutter.project_name}} # scrapy project          
-  │   ├── __init__.py
-  │   ├── items.py
-  │   ├── middlewares.py
-  │   ├── pipelines.py
-  │   ├── settings.py
-  │   └── spiders
-  │       └── __init__.py
-  ├── LICENSE # license file
-  ├── MANIFEST.in # setup install package file
-  ├── pytest.ini # pytest config file
-  ├── README.md
-  ├── requirements
-  │   ├── requirements-lint.txt # requirements of format tools used by scripts/lint.sh and tox
-  │   ├── requirements-test.txt # requirements of test used by tox
-  │   └── requirements.txt # requirements of this project
-  ├── scrapy.cfg # scrapy project entrypoint file
-  ├── scripts
-  │   ├── test.sh # run test 
-  │   └── lint.sh # format the source file
-  ├── setup.cfg # setup tool config file
-  ├── setup.py # setup tool 
-  ├── tests
-  │   ├── __init__.py
-  │   └── test_scrapy_check.py # unit test with scrapy check
-  └── tox.ini # tox config file
-  ```
+    ```
+    .
+    ├── {{cookiecutter.project_name}} # scrapy project          
+    │   ├── __init__.py
+    │   ├── items.py
+    │   ├── middlewares.py
+    │   ├── pipelines.py
+    │   ├── settings.py
+    │   └── spiders
+    │       └── __init__.py
+    ├── LICENSE # license file
+    ├── MANIFEST.in # setup install package file
+    ├── pytest.ini # pytest config file
+    ├── README.md
+    ├── requirements
+    │   ├── requirements-lint.txt # requirements of format tools used by scripts/lint.sh and tox
+    │   ├── requirements-test.txt # requirements of test used by tox
+    │   └── requirements.txt # requirements of this project
+    ├── scrapy.cfg # scrapy project entrypoint file
+    ├── scripts
+    │   ├── test.sh # run test 
+    │   └── lint.sh # format the source file
+    ├── setup.cfg # setup tool config file
+    ├── setup.py # setup tool 
+    ├── tests
+    │   ├── __init__.py
+    │   └── test_scrapy_check.py # unit test with scrapy check
+    └── tox.ini # tox config file
+    ```
 
 ## Usage
 
