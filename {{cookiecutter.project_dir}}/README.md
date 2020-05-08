@@ -69,6 +69,12 @@ It is also a python package, the scaffolds can be used for formatting, testing, 
     └── tox.ini # tox config file
     ```
 
+## Install
+
+```
+python setup.py install
+```
+
 ## Usage
 
 ```
