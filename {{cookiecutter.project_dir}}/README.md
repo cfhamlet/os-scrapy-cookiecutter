@@ -29,12 +29,12 @@ It is also a python package, the scaffolds can be used for formatting, testing, 
     python setup.py install
     ```
 
-* demo
+* example
 
-    You can run demo spider:
+    You can run example spider:
 
     ```
-    scrapy crawl demo
+    scrapy crawl example
     ```
 
 * files
