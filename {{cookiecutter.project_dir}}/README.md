@@ -84,7 +84,7 @@ scrapy -h
 ## Unit Tests
 
 ```
-tox
+sh scripts/test.sh
 ```
 
 ## License
