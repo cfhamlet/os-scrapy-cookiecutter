@@ -134,6 +134,7 @@ class ExampleSpider(scrapy.Spider):
                 "headers": response.headers,
                 "body": response.body,
             },
+            meta=response.meta,
         )
 """
 
