@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 
 def read(*filenames, **kwargs):
     import io
-    from os.path import join, dirname
+    from os.path import dirname, join
 
     encoding = kwargs.get("encoding", "utf-8")
     sep = kwargs.get("sep", "\n")
@@ -29,7 +29,11 @@ setup(
     url="https://github.com/cfhamlet/os-scrapy-cookiecutter",
     install_requires=open("requirements/requirements.txt").read().split("\n"),
     python_requires=">=3.6",
-    keywords=["cookiecutter", "template", "package",],
+    keywords=[
+        "cookiecutter",
+        "template",
+        "package",
+    ],
     zip_safe=False,
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
