@@ -16,7 +16,7 @@ def write_scrapy_requirement(project_dir):
     with open(requirements_file, "a+") as f:
         import scrapy
 
-        requirement = "Scrapy==" + scrapy.__version__
+        requirement = "Scrapy>=" + scrapy.__version__
         f.write(requirement)
 
 
